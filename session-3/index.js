@@ -9,3 +9,16 @@ console.log("Original output: " + c);
 a = 20;
 
 console.log("After 'a' has been updated: " + c)
+
+function sayHey() {
+    console.log ("Hey!");
+}
+
+sayHey ();
+
+function conversation () {
+    sayHey();
+    console.log("How are you?");
+    console.log("Goodbye");
+}
+conversation ();
