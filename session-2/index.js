@@ -3,3 +3,4 @@
 console.log('Hello Everyone');
 console.log(document.querySelector('p').innerHTML);
 console.log(document.querySelectorAll('.about'));
+console.log(document.querySelectorAll( 'contact'));
