@@ -60,21 +60,13 @@ const division = a * c;
 console.log("Division: x + y = " + division);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // ****************************************************TASK 3****************************************************
+const myAge = 18;
+const minAge = 18;
 
+const EnoughDrive = (myAge) >= minAge;
+
+console.log('I am old enough to drive! ' + EnoughDrive)
 
 
 
