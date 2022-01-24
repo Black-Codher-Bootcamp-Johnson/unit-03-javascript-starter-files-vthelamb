@@ -28,3 +28,9 @@ function futureAge(name,age) {
     return name +" "+ "will be " + answer +  " in 5 years!";
 }
 console.log(futureAge("Veronica" , 30));
+
+function futureAge(name,age) {
+    const answer = age + 5;
+     return name +" "+ "will be " + answer +  " in 5 years!";
+ }
+ console.log(futureAge("Jack" , 31));
