@@ -1,27 +1,27 @@
 function getGrade(total){
     if (total > 90) {
-    console.log("A+");
+      return ("A+")
     }
     else if (total > 80 && total <= 90)
-    console.log("A");
+      return("A");
 
     else if (total > 70 && total <= 80)
-    console.log("B");
+      return("B");
 
     else if (total > 60 && total <= 70)
-    console.log("C");
+      return("C");
 
     else if (total > 50 && total <= 60)
-    console.log("D");
+      return("D");
 
     else if (total > 40 && total <=50)
-    console.log("E");
+      return("E");
 
     else if(total > 30 && total <=40)
-    console.log("F");
+      return("F");
 
     else if (total <30)
-    console.lof("FAIL");
+      return("FAIL");
 }
 
-console.log(getGrade(35));
+console.log("Your grade is: " + getGrade(45)+"!");
