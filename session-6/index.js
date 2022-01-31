@@ -16,6 +16,10 @@ for (let counter = 0; counter <= 10; counter = counter + 1 ) {
   console.log(randomNumber)
 }
 
+console.log ("========================================");
+
+
+
 
 
 
