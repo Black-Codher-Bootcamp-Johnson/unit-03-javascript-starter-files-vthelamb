@@ -1,6 +1,6 @@
 // ****************************************************TASK 1****************************************************
 
-const animals = ['cat','dog','wolf', 'lion','eagle','zebra'];
+const animals = ['cat','dog','wolf','lion','eagle','zebra','rabbit','deer','bear','seagull'];
 console.log(animals);
 animals.pop();
 console.log(animals);
@@ -8,15 +8,13 @@ console.log(animals);
 
 // ****************************************************TASK 2****************************************************
 
+const puppies = ['cat','dog','wolf','lion','eagle','zebra','rabbit','deer','bear','seagull'];
+puppies.sort().reverse();
+console.log(puppies);
 
-
-
-
-
-
-
-
-
+const numbers = [5, 325, 67, 100000, 150];
+numbers.sort();
+console.log(numbers);
 
 // ****************************************************TASK 3****************************************************
 
