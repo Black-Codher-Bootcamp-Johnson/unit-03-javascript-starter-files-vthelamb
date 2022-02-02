@@ -34,3 +34,6 @@ function compare(a, b) {
 
   return personA > personB ? true : false;
 }
+
+const sortedPeople = people.sort(compare).map(person=>person.name)
+console.log(sortedPeople);
